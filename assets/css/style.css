@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 /* reset all margins */
 * {
    margin: 0;
@@ -7,35 +10,51 @@
 }
 
 #logo{
-    font-size: 2em;
+    font-size: 3em;
     float:left;
-    margin: 10px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 20px;
 }
 
-#nav-links{
-    margin-top:5px;
-    float:right;
-    margin: 10px;
+#logo >a {
+    color: rgb(45, 106, 146); 
+    margin-right: 10px;  
+}
+#logo >a:hover{
+    color:black; 
+}
 
+
+#nav-links{
+    font-size: 2em;
+    float:right;
+    font-family: 'Fredericka the Great', cursive;
+    margin-right: 20px;
+}
+
+#nav-links >a {
+    color: rgb(45, 106, 146); 
+    margin-right: 10px;  
+}
+#nav-links >a:hover {
+    color:black; 
+    font-size: 1.1em;
+    white-space: nowrap;
 }
 
 #site-name{
     text-decoration: none;
     padding-left: 5px;
 }
-section {
 
-    background: blueviolet;
-    
-}
 nav{
-
     width: 100%;
     position: fixed;
     top:0;
     background-color: white;
-    line-height: 50px;
+    line-height: 100px;
     text-align: center;
+    max-height: 100px;
 }
 
 footer{
@@ -49,3 +68,5 @@ footer{
     min-height: 100vh;
     object-fit: cover;
 }
+
+:-moz-user-disabled
