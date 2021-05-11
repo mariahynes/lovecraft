@@ -1,0 +1,31 @@
+/* reset all margins */
+* {
+   margin: 0;
+   padding: 0;
+   border: none;
+}
+
+section {
+
+    background: blueviolet;
+    
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: white;
+    
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+}
+#wool-image{
+    width:100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
