@@ -89,18 +89,39 @@ footer{
 }
 
 @media screen and (max-width: 870px){
-    #nav-links {
-        float:right;
-        margin-left:20px;
-        font-size: 9px;
+    nav{
+        line-height: unset;
     }
 
-    #nav-links a {
-        display:none;
-    }
-
-    #links-icon{
-        display:block;
+    #logo{
         font-size: 2em;
+        width:100%;
+        margin: auto;
+        margin-top:10px;
+    }
+
+    #nav-links {
+        width:100%;
+        margin: auto;
+        font-size: 1em;
+        margin-bottom: 10px;
+        
+    }
+    #nav-links a {
+        color: black;
+    }
+
+    .overlay{
+        position:relative;
+        display: inline-block;
+        font-family: 'Fredericka the Great', cursive;
+        height: 100px;
+        width:50%;
+        color: white;
+        background-color: navy;
+        padding: 10px;
+        z-index: 2;
+        top:-300px;
+        border-radius: 20px;
     }
 }
