@@ -8,6 +8,9 @@
    border: none;
    text-decoration: none;
 }
+#links-icon{
+    display:none;
+}
 
 #logo{
     font-size: 3em;
@@ -83,4 +86,21 @@ footer{
     z-index: 2;
     top:-600px;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 870px){
+    #nav-links {
+        float:right;
+        margin-left:20px;
+        font-size: 9px;
+    }
+
+    #nav-links a {
+        display:none;
+    }
+
+    #links-icon{
+        display:block;
+        font-size: 2em;
+    }
 }
