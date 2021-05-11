@@ -8,6 +8,8 @@
    border: none;
    text-decoration: none;
 }
+
+/* header/nav styles */
 #links-icon{
     display:none;
 }
@@ -28,7 +30,6 @@
     color: rgb(36, 182, 187);
 }
 
-
 #nav-links{
     font-size: 2em;
     float:right;
@@ -40,6 +41,7 @@
     color: black;
     margin-right: 10px;  
 }
+
 #nav-links >a:hover {
     color:black; 
     color: rgb(36, 182, 187);
@@ -63,6 +65,24 @@ nav{
     z-index:3;
 }
 
+/* H1 style */
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+/*  section styles */
+
+#crafts{
+    margin-top:200px !important;
+    column-count: 2;
+    column-gap:0;
+}
+
+#crafts > div > img{
+    width: 100%;
+    
+}
+
 footer{
     background-color: white;
     width: 100%;
@@ -71,7 +91,7 @@ footer{
 }
 #wool-image{
     width:100%;
-    min-height: 100vh;
+    max-height: 100vh;
     object-fit: cover;
 }
 
