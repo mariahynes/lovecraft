@@ -55,6 +55,7 @@ nav{
     line-height: 100px;
     text-align: center;
     max-height: 100px;
+    z-index:3;
 }
 
 footer{
@@ -69,4 +70,17 @@ footer{
     object-fit: cover;
 }
 
-:-moz-user-disabled
+.overlay{
+    position:relative;
+    display: inline-block;
+    font-family: 'Fredericka the Great', cursive;
+    left: 20px;
+    height: 100px;
+    width:20%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    z-index: 2;
+    top:-600px;
+    border-radius: 20px;
+}
