@@ -20,11 +20,12 @@
 }
 
 #logo >a {
-    color: rgb(45, 106, 146); 
+    color: black;
     margin-right: 10px;  
 }
 #logo >a:hover{
-    color:black; 
+   
+    color: rgb(36, 182, 187);
 }
 
 
@@ -36,11 +37,12 @@
 }
 
 #nav-links >a {
-    color: rgb(45, 106, 146); 
+    color: black;
     margin-right: 10px;  
 }
 #nav-links >a:hover {
     color:black; 
+    color: rgb(36, 182, 187);
     font-size: 1.1em;
     white-space: nowrap;
 }
@@ -75,14 +77,15 @@ footer{
 
 .overlay{
     position:relative;
-    display: inline-block;
+    display: inline-block; /*needed to give span width/height*/
+    overflow: hidden;
     font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
     left: 20px;
-    height: 100px;
-    width:20%;
+    width: 50%;
     color: white;
-    background-color: black;
-    padding: 10px;
+    background-color: rgba(36, 182, 187, 0.692);
+    padding: 20px;
     z-index: 2;
     top:-600px;
     border-radius: 20px;
@@ -111,17 +114,10 @@ footer{
         color: black;
     }
 
-    .overlay{
-        position:relative;
-        display: inline-block;
-        font-family: 'Fredericka the Great', cursive;
-        height: 100px;
-        width:50%;
-        color: white;
-        background-color: navy;
-        padding: 10px;
-        z-index: 2;
-        top:-300px;
-        border-radius: 20px;
+    .overlay {
+        top:-350px;
+        font-size: 1.1em;
+        width:70%;
+        color:white;
     }
 }
