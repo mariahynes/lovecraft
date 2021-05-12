@@ -72,6 +72,15 @@ h1 {
 
 /*  section styles */
 
+#main{
+    background-image: url("../images/pexels-castorly-stock-3693214.jpg");
+    background-color: rgb(36, 182, 187); /* background colour if image not available */
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #crafts{
     margin-top:200px !important;
     column-count: 2;
@@ -102,12 +111,12 @@ footer{
     font-family: 'Fredericka the Great', cursive;
     font-size: 3em;
     left: 20px;
-    width: 50%;
+    width: 30%;
     color: white;
-    background-color: rgba(36, 182, 187, 0.692);
+    background-color: rgba(36, 182, 187, 0.8);
     padding: 20px;
     z-index: 2;
-    top:-700px;
+    top:300px;
     border-radius: 20px;
 }
 
