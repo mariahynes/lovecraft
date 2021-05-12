@@ -21,12 +21,12 @@
 }
 
 #logo >a {
-    color: black;
+    color: white;
     margin-right: 10px;  
 }
 #logo >a:hover{
    
-    color: rgb(36, 182, 187);
+    color:black;
 }
 
 #nav-links{
@@ -37,12 +37,12 @@
 }
 
 #nav-links >a {
-    color: black;
+    color: white;
     margin-right: 10px;  
 }
 
 #nav-links >a:hover {
-    color: rgb(36, 182, 187);
+    color: black;
     font-size: 1.1em;
     white-space: nowrap;
 }
@@ -53,10 +53,12 @@
 }
 
 nav{
+    background-color: rgb(36, 182, 187);
+    color: white;
     width: 100%;
     position: fixed;
     top:0;
-    background-color: white;
+    /* background-color: white; */
     line-height: 100px;
     text-align: center;
     max-height: 100px;
@@ -79,27 +81,45 @@ h1 {
     background-size: cover;
 }
 
-#craft-types{
+.craft-types{
     
     column-count: 2;
     column-gap:0;
 }
 
-#craft-types > div > img{
+.craft-types > div > img{
     width: 100%;
     
 }
 
 footer{
-    background-color: white;
+    background-color: rgb(36, 182, 187);
+    color: white;
+    line-height:70px; 
+    text-align: center;
     width: 100%;
     position:fixed;
     bottom: 0;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 1.5em;
 }
-#wool-image{
-    width:100%;
-    max-height: 100vh;
-    object-fit: cover;
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: black
+}
+
+.left-footer{
+    float:left;
+    width: 33%;
+}
+.right-footer{
+    float:right;
+    width: 33%;
 }
 
 .overlay{
@@ -137,10 +157,27 @@ footer{
         margin-bottom: 10px;
         
     }
-    #nav-links a {
+    #nav-links >a {
+        color: white;
+        margin-right: 10px;  
+    }
+    
+    #nav-links >a:hover {
         color: black;
+        font-size: 1.1em;
+        white-space: nowrap;
     }
 
+    footer{
+        line-height:20px; 
+        text-align: center;
+        width: 100%;
+        position:fixed;
+        bottom: 0;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 0.7em;
+    }
+   
     .overlay {
         top:100px;
         font-size: 1.1em;
@@ -151,9 +188,8 @@ footer{
     #main{
         height: 600px;
     }
-    
+
     #craft-types{
-    
         column-count: 1;
         column-gap:0;
     }
