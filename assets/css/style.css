@@ -81,16 +81,17 @@ h1 {
     background-size: cover;
 }
 
-.craft-types{
+.craft-types, .craft-videos{
     
     column-count: 2;
     column-gap:0;
 }
 
-.craft-types > div > img{
+.craft-types > div > img, .craft-videos > div > img, .craft-videos > div > video{
     width: 100%;
     
 }
+
 
 footer{
     background-color: rgb(36, 182, 187);
@@ -189,7 +190,7 @@ footer a:hover{
         height: 600px;
     }
 
-    #craft-types{
+    .craft-types, .craft-videos{
         column-count: 1;
         column-gap:0;
     }
