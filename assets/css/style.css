@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Open+Sans&family=Sacramento&display=swap');
 
 /* reset all margins */
 * {
@@ -13,6 +14,19 @@
     font-family: 'Fredericka the Great', cursive;
 }
 
+/* love font */
+.love-font{
+    font-family: 'Sacramento', cursive;
+    color: black;
+}
+
+/* body font */
+body{
+    font-family: 'Josefin Slab', serif;
+}
+
+/* font variants */
+
 .white-font{
     color: white;
 }
@@ -20,6 +34,7 @@
 .large-font{
     font-size: 1.5em;
 }
+
 
 /* header/nav styles */
 #links-icon{
@@ -37,6 +52,7 @@
     color: white;
     margin-right: 10px;  
 }
+
 #logo >a:hover{
    
     color:black;
@@ -77,10 +93,7 @@ nav{
     z-index:3;
 }
 
-/* H1 style */
-h1 {
-    font-family: 'Fredericka the Great', cursive;
-}
+
 
 /*  section styles */
 
@@ -96,6 +109,11 @@ h1 {
 #crafts{
     padding-top: 100px;
 }
+
+#workshops{
+    padding-top: 100px;
+}
+
 .craft-types, .craft-videos{
     
     column-count: 2;
@@ -106,6 +124,7 @@ h1 {
     width: 100%;
 }
 
+/* craft images overlay text  */
 .craft-detail {
     position: relative;
     text-align: right;
@@ -123,6 +142,7 @@ h1 {
     border-radius: 10px;
 }
 
+/* footer style */
 footer{
     background-color: rgb(36, 182, 187);
     color: white;
