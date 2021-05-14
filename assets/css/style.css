@@ -164,8 +164,9 @@ nav{
 }
 
 .sample-video > div > video{
-    width: 480px;
-    padding: 50px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .sample-video > div > p{
     font-size: 2em;
@@ -201,6 +202,17 @@ nav{
 
 #contact{
     margin-bottom: 100px;
+}
+
+.contact-info{
+
+    position: relative;
+    
+}
+.contact-info > div{
+
+    float: left;
+    
 }
 
 /* footer style */
@@ -263,7 +275,7 @@ footer i{
 
 
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 870px){
     nav{
         line-height: unset;
         padding-bottom:10px;
@@ -325,7 +337,6 @@ footer i{
 
     .sample-video > div > video{
         width: 100%;
-        vertical-align: center;
         padding: unset;
     }
 
