@@ -124,11 +124,24 @@ nav{
 
 .craft-videos {
     
-    column-count: 4;
+    column-count: 3;
     column-gap:0;
 }
 
-.craft-types > div > img, .craft-videos > div > img, .craft-videos > div > video{
+.free-video{
+    width: 100%;
+}
+
+#sample-video > video {
+    width:50%;
+}
+
+#sample-video-desc{
+    width:50%;
+}
+
+
+.craft-types > div > img, .craft-videos > div > video{
     width: 100%;
 }
 
