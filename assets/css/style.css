@@ -21,6 +21,14 @@
     color: black;
 }
 
+.blue-link{
+    color: rgb(36, 182, 187) !important;
+}
+
+a:hover{
+    color: black !important;
+}
+
 /* body font */
 body{
     font-family: 'Josefin Slab', serif;
@@ -40,6 +48,11 @@ body{
     font-size: 1.5em;
 }
 
+.white-background {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 /* header/nav styles */
 #links-icon{
@@ -129,6 +142,21 @@ nav{
     column-count: 3;
     column-gap:0;
 }
+
+.craft-videos > div {
+    opacity: 0.7;
+    position: relative; /* Make div relative so that text can be overlayed (https://www.w3schools.com/howto/howto_css_image_text.asp) */
+    text-align: center;
+    color: white;
+}
+
+/* Centered text (https://www.w3schools.com/howto/howto_css_image_text.asp)*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 .sample-video{
     column-count: 2;
@@ -304,7 +332,7 @@ footer i{
     #arrow-up{
         display:unset;
     }
-    
+
     #arrow-left{
         display:none;
     }
