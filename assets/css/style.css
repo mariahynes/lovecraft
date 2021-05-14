@@ -117,31 +117,30 @@ nav{
 }
 
 .craft-types {
-    
     column-count: 2;
     column-gap:0;
 }
 
 .craft-videos {
-    
     column-count: 3;
     column-gap:0;
 }
 
-.free-video{
-    width: 100%;
+.sample-video{
+    column-count: 2;
+    column-gap:0;
 }
 
-#sample-video > video {
-    width:50%;
+.sample-video > div > video{
+    width: 480px;
+    padding: 50px;
+}
+.sample-video > div > p{
+    font-size: 2em;
+    padding: 50px;
 }
 
-#sample-video-desc{
-    width:50%;
-}
-
-
-.craft-types > div > img, .craft-videos > div > video{
+.craft-types > div > img, .craft-videos > div > video {
     width: 100%;
 }
 
@@ -282,9 +281,15 @@ footer i{
         height: 600px;
     }
 
-    .craft-types, .craft-videos{
+    .craft-types, .craft-videos, .sample-video{
         column-count: 1;
         column-gap:0;
+    }
+
+    .sample-video > div > video{
+        width: 100%;
+        vertical-align: center;
+        padding: unset;
     }
 
     .overlay-craft{
