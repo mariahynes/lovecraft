@@ -21,6 +21,12 @@
     color: black;
 }
 
+/* body font */
+body{
+    font-family: 'Josefin Slab', serif;
+}
+
+/* useful classes for fonts/links */
 .blue-link{
     color: rgb(36, 182, 187) !important;
 }
@@ -28,13 +34,6 @@
 a:hover{
     color: black !important;
 }
-
-/* body font */
-body{
-    font-family: 'Josefin Slab', serif;
-}
-
-/* font variants */
 
 .white-font{
     color: white;
@@ -164,19 +163,21 @@ nav{
 }
 
 .sample-video > div > video{
+    position:relative;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
 }
+
 .sample-video > div > p{
     font-size: 2em;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 #arrow-up{
     display:none;
 }
-
 
 .craft-types > div > img, .craft-videos > div > video {
     width: 100%;
