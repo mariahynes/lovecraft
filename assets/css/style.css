@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Open+Sans&family=Sacramento&display=swap');
 
@@ -91,11 +92,20 @@ nav{
     text-align: center;
     max-height: 100px;
     z-index:3;
+    border-bottom: 1px solid black;
 }
 
 
 
 /*  section styles */
+.section-head {
+    
+    background-color: rgb(36, 182, 187);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding:20px 0px;
+}
 
 #main{
     background-image: url("../images/pexels-castorly-stock-3693214.jpg");
@@ -106,17 +116,15 @@ nav{
     background-size: cover;
 }
 
-#crafts{
-    padding-top: 100px;
-}
-
-#workshops{
-    padding-top: 100px;
-}
-
-.craft-types, .craft-videos{
+.craft-types {
     
     column-count: 2;
+    column-gap:0;
+}
+
+.craft-videos {
+    
+    column-count: 4;
     column-gap:0;
 }
 
@@ -142,6 +150,10 @@ nav{
     border-radius: 10px;
 }
 
+#contact{
+    margin-bottom: 100px;
+}
+
 /* footer style */
 footer{
     background-color: rgb(36, 182, 187);
@@ -153,6 +165,8 @@ footer{
     bottom: 0;
     font-family: 'Fredericka the Great', cursive;
     font-size: 1.5em;
+    z-index:3;
+    border-top: 1px solid black;
 }
 
 footer a{
@@ -173,6 +187,10 @@ footer a:hover{
     width: 33%;
 }
 
+footer i{
+    font-size: 0.8em;
+}
+
 .overlay {
     
     display: inline-block; /*needed to give span width/height*/
@@ -189,7 +207,7 @@ footer a:hover{
 
 #main .overlay{
     position:relative;
-    top:300px;
+    top:200px;
     font-size: 3em;
     
 }
@@ -199,6 +217,7 @@ footer a:hover{
 @media screen and (max-width: 870px){
     nav{
         line-height: unset;
+        padding-bottom:10px;
     }
 
     #logo{
@@ -227,7 +246,7 @@ footer a:hover{
     }
 
     footer{
-        line-height:20px; 
+        line-height:40px; 
         text-align: center;
         width: 100%;
         position:fixed;
@@ -242,7 +261,7 @@ footer a:hover{
 
     #main .overlay {
         position:relative;
-        top:100px;
+        
         font-size: 1.1em;
     }
 
