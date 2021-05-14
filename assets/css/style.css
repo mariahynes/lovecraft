@@ -32,6 +32,10 @@ body{
     color: white;
 }
 
+.blue-font{
+    color: rgb(36, 182, 187);
+}
+
 .large-font{
     font-size: 1.5em;
 }
@@ -139,6 +143,11 @@ nav{
     font-size: 2em;
     padding: 50px;
 }
+
+#arrow-up{
+    display:none;
+}
+
 
 .craft-types > div > img, .craft-videos > div > video {
     width: 100%;
@@ -290,6 +299,14 @@ footer i{
         width: 100%;
         vertical-align: center;
         padding: unset;
+    }
+
+    #arrow-up{
+        display:unset;
+    }
+    
+    #arrow-left{
+        display:none;
     }
 
     .overlay-craft{
